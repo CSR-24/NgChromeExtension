@@ -1,0 +1,15 @@
+.container {
+    padding: 1em;
+}
+
+#bookmarkExtensionTab1 {
+ background-color: beige;
+}
+
+#bookmarkExtensionTab2 {
+    background-color: aqua;
+}
+
+#bookmarkExtensionTab3 {
+    background-color: azure;
+}
