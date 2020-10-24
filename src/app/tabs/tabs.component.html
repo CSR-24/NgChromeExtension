@@ -1,19 +1,19 @@
 <ngb-tabset [destroyOnHide]="false">
   <ngb-tab>
-    <ng-template ngbTabTitle><b>Tab 1</b></ng-template>
+    <ng-template ngbTabTitle><b>Recent</b></ng-template>
     <ng-template ngbTabContent>
-        <p class="container" id="bookmarkExtensionTab1">Tab 1</p>
+
     </ng-template>
   </ngb-tab>
   <ngb-tab>
-    <ng-template ngbTabTitle><b>Tab 2</b></ng-template>
+    <ng-template ngbTabTitle><b>All Bookmarks</b></ng-template>
     <ng-template ngbTabContent>
-        <p class="container" id="bookmarkExtensionTab2">Tab 2</p>
+
     </ng-template>
   </ngb-tab>
-  <ngb-tab title="Tab 3" [disabled]="true">
+  <ngb-tab title="Manage Bookmarks" ngbTooltip="Manage Bookmarks" placement="top">
     <ng-template ngbTabContent>
-      <p class="container" id="bookmarkExtensionTab3">Tab 3</p>
+
     </ng-template>
   </ngb-tab>
 </ngb-tabset>

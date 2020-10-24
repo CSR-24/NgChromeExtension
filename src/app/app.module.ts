@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { TabsComponent } from './tabs/tabs.component';
+import { BookmarkCardComponent } from './bookmark-card/bookmark-card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TabsComponent
+    TabsComponent,
+    BookmarkCardComponent
   ],
   imports: [
     BrowserModule,
